@@ -110,7 +110,7 @@ Overall, this smart contract provides a way to track the various stages of a pha
 1. Start Ganache: Start the Ganache application and make note of the RPC server URL and port number.
 
 1. Connect MetaMask: Open MetaMask in your browser and click on the network dropdown in the top-right corner.
-(https://metamask.zendesk.com/hc/article_attachments/10080831633947)![https://kimsereylam.com/assets/posts/2022-02-25-setup-local-development-blockchain-with-ganache/ganache_network.png](https://kimsereylam.com/assets/posts/2022-02-25-setup-local-development-blockchain-with-ganache/ganache_network.png)
+![https://metamask.zendesk.com/hc/article_attachments/10080831633947](https://metamask.zendesk.com/hc/article_attachments/10080831633947)![https://kimsereylam.com/assets/posts/2022-02-25-setup-local-development-blockchain-with-ganache/ganache_network.png](https://kimsereylam.com/assets/posts/2022-02-25-setup-local-development-blockchain-with-ganache/ganache_network.png)
 
 Select "Custom RPC" and enter the RPC server URL and port number for your Ganache instance. Click "Save".
 
