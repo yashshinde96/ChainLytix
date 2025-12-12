@@ -1,0 +1,14 @@
+/* Additional custom styles can go here */
+.App {
+  text-align: left;
+}
+
+/* Ensure proper box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth transitions for all interactive elements */
+button, input, select, textarea {
+  transition: all 0.2s ease-in-out;
+}

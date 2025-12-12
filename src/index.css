@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .gradient-bg {
+    @apply bg-gradient-to-br from-blue-600 via-purple-600 to-purple-700;
+  }
+
+  .gradient-bg-addmed {
+    @apply bg-gradient-to-br from-green-100 via-blue-50 to-yellow-50;
+  }
+
+  .navbar-gradient {
+    @apply bg-gradient-to-r from-blue-800 via-purple-800 to-purple-900;
+  }
+
+  .fancyButton {
+    @apply px-6 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 hover:from-blue-700 hover:to-purple-700 transition-all duration-300 ease-in-out;
+  }
+
+  .login-card {
+    @apply bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl;
+  }
+
+  .page-container {
+    @apply min-h-screen bg-gray-50 pt-20 px-4 py-8;
+  }
+
+  .table-container {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden;
+  }
+
+  .table-header {
+    @apply bg-gray-50 border-b border-gray-200;
+  }
+
+  .table-cell {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-gray-900;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
